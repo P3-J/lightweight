@@ -1,0 +1,48 @@
+[gd_scene load_steps=4 format=3 uid="uid://bl2gh5obd338e"]
+
+[ext_resource type="Script" path="res://CharacterBody3d.cs" id="1_u047d"]
+[ext_resource type="Texture2D" uid="uid://b483k34ortnql" path="res://Crosshairs_Red.svg.png" id="2_x8ngj"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_cgdqa"]
+
+[node name="CharacterBody3D" type="CharacterBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 9.03158, 0)
+script = ExtResource("1_u047d")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("CapsuleShape3D_cgdqa")
+
+[node name="head" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.7314, 0)
+
+[node name="Camera3D" type="Camera3D" parent="head"]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -576.0
+offset_top = -324.0
+offset_right = 576.0
+offset_bottom = 324.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_top = -4.0
+offset_right = 456.0
+offset_bottom = 300.0
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/VBoxContainer"]
+modulate = Color(0, 0.843137, 0.0117647, 0.129412)
+scale = Vector2(0.01, 0.01)
+texture = ExtResource("2_x8ngj")
