@@ -1,0 +1,14 @@
+[remap]
+
+importer="func_godot.map"
+type="Resource"
+uid="uid://bytk0tlw0dh5w"
+path="res://.godot/imported/m3.8.map-52e2b32b5584d21440a4df67d4c9caca.tres"
+
+[deps]
+
+source_file="res://trench_maps/autosave/m3.8.map"
+dest_files=["res://.godot/imported/m3.8.map-52e2b32b5584d21440a4df67d4c9caca.tres"]
+
+[params]
+

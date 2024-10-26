@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="FuncGodotFGDFile" load_steps=10 format=3 uid="uid://crgpdahjaj"]
+[gd_resource type="Resource" script_class="FuncGodotFGDFile" load_steps=11 format=3 uid="uid://crgpdahjaj"]
 
 [ext_resource type="Script" path="res://addons/func_godot/src/fgd/func_godot_fgd_file.gd" id="1_axt3h"]
 [ext_resource type="Resource" uid="uid://nayxb8n7see2" path="res://addons/func_godot/fgd/phong_base.tres" id="1_ehab8"]
@@ -9,6 +9,7 @@
 [ext_resource type="Resource" uid="uid://fnjdp7m8ldfr" path="res://addons/func_godot/fgd/point.tres" id="6_2a0tc"]
 [ext_resource type="Resource" uid="uid://edy4mxaajw11" path="res://addons/func_godot/fgd/point2.tres" id="7_0d7v3"]
 [ext_resource type="Resource" uid="uid://dj7nsupqra3yr" path="res://addons/func_godot/fgd/solidman.tres" id="8_jfk3t"]
+[ext_resource type="Resource" uid="uid://uclwg0xjvsuc" path="res://addons/func_godot/fgd/djump.tres" id="9_x2xsf"]
 
 [resource]
 script = ExtResource("1_axt3h")
@@ -16,4 +17,4 @@ export_file = false
 model_key_word_supported = true
 fgd_name = "FuncGodot"
 base_fgd_files = Array[Resource]([])
-entity_definitions = Array[Resource]([ExtResource("1_ehab8"), ExtResource("2_ri2rx"), ExtResource("3_fqfww"), ExtResource("5_b2q3p"), ExtResource("4_c4ucw"), ExtResource("6_2a0tc"), ExtResource("7_0d7v3"), ExtResource("8_jfk3t")])
+entity_definitions = Array[Resource]([ExtResource("1_ehab8"), ExtResource("2_ri2rx"), ExtResource("3_fqfww"), ExtResource("5_b2q3p"), ExtResource("4_c4ucw"), ExtResource("6_2a0tc"), ExtResource("7_0d7v3"), ExtResource("8_jfk3t"), ExtResource("9_x2xsf")])

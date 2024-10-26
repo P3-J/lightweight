@@ -1,0 +1,46 @@
+[gd_scene load_steps=5 format=3 uid="uid://r2403ygtcvdo"]
+
+[ext_resource type="PackedScene" uid="uid://be5rxmqog7or5" path="res://entities/models/Crystall1.fbx" id="1_f5bnt"]
+[ext_resource type="Texture2D" uid="uid://ccvswhmwomwec" path="res://entities/models/Crystall1_BaseColor.png" id="2_kmq1l"]
+[ext_resource type="Texture2D" uid="uid://nc447g6hn7yc" path="res://entities/models/Crystall1_Crystall_Emissive.png" id="3_wuc8f"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_x0w4g"]
+albedo_texture = ExtResource("2_kmq1l")
+emission_enabled = true
+emission_energy_multiplier = 1.24
+emission_texture = ExtResource("3_wuc8f")
+
+[node name="Crystall1" instance=ExtResource("1_f5bnt")]
+
+[node name="Crystall" parent="." index="0"]
+material_override = SubResource("StandardMaterial3D_x0w4g")
+
+[node name="pCylinder12" parent="." index="1"]
+material_override = SubResource("StandardMaterial3D_x0w4g")
+
+[node name="pCylinder13" parent="." index="2"]
+material_override = SubResource("StandardMaterial3D_x0w4g")
+
+[node name="pCylinder14" parent="." index="3"]
+material_override = SubResource("StandardMaterial3D_x0w4g")
+
+[node name="pCylinder15" parent="." index="4"]
+material_override = SubResource("StandardMaterial3D_x0w4g")
+
+[node name="pCylinder16" parent="." index="5"]
+material_override = SubResource("StandardMaterial3D_x0w4g")
+
+[node name="pCylinder20" parent="." index="6"]
+material_override = SubResource("StandardMaterial3D_x0w4g")
+
+[node name="pCylinder21" parent="." index="7"]
+material_override = SubResource("StandardMaterial3D_x0w4g")
+
+[node name="pCylinder22" parent="." index="8"]
+material_override = SubResource("StandardMaterial3D_x0w4g")
+
+[node name="pCylinder23" parent="." index="9"]
+material_override = SubResource("StandardMaterial3D_x0w4g")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="." index="11"]
+light_color = Color(0, 0.664941, 0.666707, 1)

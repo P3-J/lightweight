@@ -21,3 +21,5 @@
 @PointClass color(204 204 204) size(-8 -8 -8, 8 8 8) studio("block.glb") = block : "block" []
 
 @SolidClass color(204 204 204) = boostedGround : "boostedGround" []
+
+@PointClass size(-8 -8 -8, 8 8 8) color(204 204 204) = djump : "djump" []
